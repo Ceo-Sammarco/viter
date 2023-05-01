@@ -4,11 +4,9 @@ import React from "react";
 
 
 export default function Home( props ) {
-
+    document.title = "Sammarco";
 
     return( <>
-        <main>
-            <h1>Homepage</h1>
-        </main>
+        <h1>Homepage</h1>
     </> );
 }
